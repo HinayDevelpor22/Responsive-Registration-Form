@@ -1,0 +1,104 @@
+﻿
+body {
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+#outerbox {
+    height: 550px;
+    width: 530px;
+    border-style: hidden;
+    border-color: whitesmoke;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    line-height: 25px;
+    font-size: 50px;
+    color: black;
+}
+
+p {
+    line-height: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.firstlast {
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 15px;
+    transition: border 0.3s;
+}
+
+.firstlast:focus {
+    border: 2px solid green;
+}
+
+.emailpassword {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 370px;
+    margin-right: 15px;
+    transition: border 0.3s;
+}
+
+.emailpassword:focus {
+    border: 2px solid green;
+}
+
+#privacycheckbox {
+    line-height: 30px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+#registerbutton {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 370px;
+    margin-right: 15px;
+    color: white;
+    background-color: green;
+    border-color: green;
+    transition: background-color 0.3s;
+}
+
+#registerbutton:hover {
+    background-color: darkgreen;
+}
+
+#check {
+    font-size: 18px;
+    color: black;
+}
+
+i {
+    color: green;
+}
+
+footer {
+    text-align: center;
+}
+
+.footercontent {
+    color: white;
+    line-height: 10px;
+    font-size: 18px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
